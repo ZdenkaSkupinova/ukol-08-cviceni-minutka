@@ -2,21 +2,26 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <script type="module" src="index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ 
 
   <title>Minutka</title>
 </head>
 
 <body>
-  <audio>
+
+  <audio id="audio">
     <source src="assets/alarm.mp3" type="audio/mpeg" />
   </audio>
   <div class="container">
-    <div class="alarm"></div>
+    <button id="btn">Zrušte nastavené zvonění</button>
+     <div class="alarm"></div>
   </div>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
